@@ -26,7 +26,7 @@ namespace SimpleTree
 
             //set the main trunk properties
             double generationLength = startLength;
-            int generationWeight = numGenerations * 1;
+            int generationWeight = numGenerations * 2;
             Color generationColor = branchColor;
 
             //calculate tree dimensions, instantiate the array of line segments, and initialize the generation 0/segment 0 (the main trunk)
@@ -43,7 +43,7 @@ namespace SimpleTree
                 //set attributes for the child generation
                 int childGeneration = thisGeneration + 1;
                 generationLength *= lengthChange;
-                generationWeight = (numGenerations - thisGeneration) * 1;
+                generationWeight = (numGenerations - thisGeneration) * 2;
                 if (childGeneration == numGenerations)
                 {
                     generationColor = leafColor;
