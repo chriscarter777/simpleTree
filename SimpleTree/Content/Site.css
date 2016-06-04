@@ -1,0 +1,26 @@
+﻿body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    }
+
+#settings{
+    margin: 10px;
+}
+
+.lbl{
+        margin-left: 10px;
+    }
+
+.btn{
+    margin-right: 15px;
+}
+
+#drawSpace{
+        position: absolute;
+        top: 50px;
+        margin: 10px;
+        padding: 10px;
+        height: 1020px;
+        width: 1620px;
+        border: 1px solid blue;
+    }
